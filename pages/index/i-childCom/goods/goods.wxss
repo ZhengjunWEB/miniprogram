@@ -1,0 +1,39 @@
+/* pages/index/i-childCom/goods/goods.wxss */
+.goods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 30rpx;
+  margin-top: 30rpx;
+  text-align: center;
+
+}
+.goods_item {
+  width: 370rpx;
+  margin-bottom: 20rpx;
+}
+.img_box {
+  width:370rpx ;
+  height: 540rpx;
+}
+.g_img {
+  width: 360rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.g_text {
+  /* width: 370rpx; */
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  margin-bottom: 10rpx;
+}
+.money {
+  color: #ff5777;
+  margin-right: 16rpx;
+}
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: text-top;
+}

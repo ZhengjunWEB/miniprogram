@@ -1,0 +1,19 @@
+/* pages/index/i-childCom/recommend/recommend.wxss */
+.recommend {
+  display: flex;
+  margin-top: 40rpx;
+  font-size: 30rpx;
+  color: #555;
+  width: 750rpx;
+  height: 240rpx;
+  text-align: center;
+  border-bottom: 10rpx solid #eee;
+}
+.rec_item {
+  flex: 1;
+}
+.rec_img {
+  width: 140rpx;
+  height: 140rpx;
+  margin-bottom: 10rpx;
+}

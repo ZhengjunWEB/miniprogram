@@ -1,0 +1,16 @@
+<view class="goods">
+  <block wx:for="{{goods[index].list}}" wx:key="index">
+    <view class="goods_item" bind:tap="clickItem" data-iid="{{item.iid}}">
+      <view class="img_box">
+        <image src="{{item.show.img}}" class="g_img" mode="widthFix"></image>
+      </view>
+      <view class="g_text" >{{item.title}}</view>
+      <view>
+        <text class="money">{{item.orgPrice}}</text>
+        <image class="icon" src="/assets/icon/xingxing.png" mode="widthFix"></image>
+        <text>{{item.cfav}}</text>
+      </view>
+    </view>
+  </block>
+</view>
+      

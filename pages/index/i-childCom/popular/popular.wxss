@@ -1,0 +1,4 @@
+/* pages/index/i-childCom/popular/popular.wxss */
+.pop_img {
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+/* pages/index/i-childCom/tab-control/tab-control.wxss */
+.tab_control {
+  display: flex;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+}
+.con_item {
+  flex: 1;
+}
+.con_active {
+  color: #ff5777 ;
+  padding:0 10rpx 10rpx ;
+  border-bottom: 6rpx solid #ff5777;
+}

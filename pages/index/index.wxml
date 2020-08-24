@@ -1,0 +1,17 @@
+<view bind:touchMove="touchMove">
+  <w-swiper list="{{banner}}" />
+  <w-recommend recommends="{{recommend}}" />
+  <popular />
+  <tab_control tab_item="{{tab_item}}" bind:clickTabItem="clickTabItem" id="tab_control" />
+  <tab_control 
+    wx:if="{{isFixed}}"
+    tab_item="{{tab_item}}" 
+    bind:clickTabItem="clickTabItem" 
+    class="tab_fixed" />
+  <!-- 展示goods -->
+  <w-goods goods="{{goods}}" index="{{index}}" />
+  <!-- 回到顶部 -->
+  <view class="goTop"> 
+    <image src="/assets/icon/huidaodingbu.png" bind:tap="goTop"  hidden="{{isHidden}}"></image>
+  </view>
+</view>

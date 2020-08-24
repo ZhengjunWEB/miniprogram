@@ -1,0 +1,3 @@
+<view class="popular">
+  <image src="/assets/img/popular.jpg" mode="widthFix" class="pop_img"></image>
+</view>

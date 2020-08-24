@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "w-swiper": "/components/w-swiper/swiper",
+    "w-recommend": "/pages/index/i-childCom/recommend/recommend",
+    "popular": "/pages/index/i-childCom/popular/popular",
+    "tab_control": "/pages/index/i-childCom/tab-control/tab-control",
+    "w-goods": "/pages/index/i-childCom/goods/goods"
+  },
+  "navigationBarTitleText": "首页"
+
+}

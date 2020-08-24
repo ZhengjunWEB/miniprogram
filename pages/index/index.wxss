@@ -1,0 +1,17 @@
+.goTop image {
+  position: fixed;
+  width: 80rpx;
+  height: 80rpx;
+  bottom: 120rpx;
+  right: 40rpx;
+}
+.hidden {
+  display: none;
+}
+.tab_fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
